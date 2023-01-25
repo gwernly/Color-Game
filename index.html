@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Clase 15 - Color Game</title>
+</head>
+<header>
+    <h1>EL GRAN</h1>
+    <h2><span class="colorDisplay"></span></h2>
+    <h1>JUEGO DE ADIVINANZAS</h1>
+</header>
+
+<body>
+    <div id="stripe">
+        <button id="reset" onclick="newGame()">NUEVOS COLORES</button>
+        <span id="message"></span>
+<!--         <button id="easyButton" onclick="easyBtn()">FÁCIL</button>
+ -->        <button class="selected" id="hardButton" onclick="hardBtn()">DÍFICIL</button>
+    </div>
+
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square" id="dificul"></div>
+        <div class="square" id="dificul"></div>
+        <div class="square" id="dificul"></div>
+    </div>
+</body>
+
+
+<footer>
+    <script src="script.js"></script>
+</footer>
+
+</html>
